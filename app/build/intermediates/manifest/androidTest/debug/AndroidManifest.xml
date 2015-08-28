@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.lull.ch07_ex4_TipCalculator.test">
+
+    <uses-sdk android:minSdkVersion="8" android:targetSdkVersion="17" />
+
+    <application>
+        <uses-library android:name="android.test.runner" />
+    </application>
+
+    <instrumentation android:name="android.test.InstrumentationTestRunner"
+                     android:targetPackage="com.lull.ch07_ex4_TipCalculator"
+                     android:handleProfiling="false"
+                     android:functionalTest="false"
+                     android:label="Tests for com.lull.ch07_ex4_TipCalculator"/>
+</manifest>

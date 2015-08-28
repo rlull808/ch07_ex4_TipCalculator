@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/Bob%20Lull/AndroidStudioProjects/ch07_ex4_TipCalculator1/app/src/main/res/values-v14/colors.xml -->
+    <eat-comment/>
+    <color name="background">#a4c639</color>
+    <!-- From: file:/C:/Users/Bob%20Lull/AndroidStudioProjects/ch07_ex4_TipCalculator1/app/src/main/res/values-v14/styles.xml -->
+    <eat-comment/>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!-- API 1-10 theme customizations go here -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <item name="android:textAppearance">@style/RadioTextSize</item>
+        <item name="android:textAppearanceSmall">@style/SpinnerTextSize</item>
+        <item name="android:windowBackground">@color/background</item>
+
+        <!-- Theme customizations NOT specific to a particular API -->
+    </style>
+    <style name="Button" parent="@style/TextView">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="EditText" parent="@style/TextView"/>
+    <style name="PaddedWidget">
+        <item name="android:padding">5dp</item>
+    </style>
+    <style name="RadioTextSize" parent="@android:style/TextAppearance">
+        <item name="android:textSize">24sp</item>
+    </style>
+    <style name="SpinnerTextSize" parent="@android:style/TextAppearance.Small">
+        <item name="android:textSize">24sp</item>
+    </style>
+    <style name="TextView">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:padding">10dp</item>
+    </style>
+    <style name="TextView.Label">
+        <item name="android:textStyle">bold</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+    <style name="TextView.Label.Indent">
+        <item name="android:layout_marginLeft">10dp</item>
+    </style>
+</resources>
